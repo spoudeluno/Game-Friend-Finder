@@ -1,0 +1,90 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 100%;
+	background-position: center;
+	height: 109vh;
+}
+#mainVideo{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	
+}
+.top{
+	width: 100%;
+	height: 200px;
+	float: center;
+	position: fixed;
+	background: rgba(0,0,0,0.5);
+	color: #f1f1f1;
+	
+}
+
+.title{
+	width: 800px;
+	height: 100px;
+	float: center;
+	
+}
+.logo{
+	color: #ffffff;
+	font-size: 30px;
+	font-family: cursive;
+	padding-top: 10px;
+	text-align: center;
+	
+}
+
+.menu{
+	width: 100%;
+	overflow: auto;
+	background-color:none;
+}
+.menu a{
+	float: left;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	width: 20%;
+	padding: 12px;
+	text-align: center;
+	font-family: cursive;
+}
+
+.menu a:hover{
+	background-color: #000;
+	color: red;
+}
+.menu a.active{
+	color: red;
+}
+
+.user{
+	width: 100%;
+	overflow: auto;
+	background-color:none;
+}
+
+.user a{
+	float: left;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	width: 45%;
+	padding: 12px;
+	text-align: center;
+	font-family: cursive;
+}
+
+.user a:hover{
+	background-color: #000;
+	color: red;
+}
